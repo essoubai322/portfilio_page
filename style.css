@@ -309,7 +309,11 @@ body {
 }
 
 .proficiency-bar.intermediate::after {
-  width: 60%;
+  width: 50%;
+}
+
+.proficiency-bar.basic::after {
+  width: 25%;
 }
 
 @keyframes twinkle {
